@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Foundations for the Assistance of Charlies Everywhere</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            height: 100%;
+            font-family: sans-serif;
+            color: #2F3136;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 15vh;
+            background: #2F3136;
+            display: flex;
+            align-items: center;
+        }
+
+        nav img {
+            height: 80%;
+            margin-left: 2vw;
+        }
+
+        ul {
+            list-style: none;
+            display: block;
+            margin: 0 auto;
+        }
+
+        li {
+            display: inline;
+            margin: 0 16px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            transition: 0.2s all ease-in-out
+        }
+
+        nav a:hover {
+            color: #B443E0;
+        }
+
+        main {
+            max-width: 960px;
+            width: 100%;
+            margin: 0 auto;
+            padding-left: 8px;
+            box-sizing: border-box;
+            margin-top: 24vh;
+        }
+
+        .button {
+            padding: 8px 24px;
+            margin: 8px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 600;
+            background: #B443E0;
+            color: #ffffff;
+            border-radius: 3px;
+            cursor: pointer;
+            outline: none;
+            margin: 32px 0;
+            transition: 0.2s all ease-in-out
+        }
+
+        .button:hover {
+            background: #5f147c;
+        }
+
+        .cta {
+            margin-top: 32px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img src="logo.png" alt="FACE" srcset="">
+        <ul>
+            <li><a href="#about">ABOUT FACE</a></li>
+            <li><a href="#donate">DONATE</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3 id="about">What is the Foundation for the Support of Charlies Everywhere?</h3>
+        <p>Charlies all over the world (particularly those who attend such prestigious universities such at Clemson
+            University) face constant turbulence. With your dontation of as little as $1 (plus transaction fees) you
+            can work towards building a better future for all Charlies.</p>
+
+        <div class="cta">
+            <a href="https://paypal.me/mayormonty" class="button" id="donate">DONATE TODAY</a>
+        </div>
+    </main>
+</body>
+
+</html>
